@@ -2,24 +2,28 @@
     font-family: 'Open Sans';font-size: 22px;
 }
 
-body{
-    background-size: 60%;
-    background-image: url("feedback.jpg");
-    background-repeat: no-repeat;
-    background-size: 950px 720px;
-    background-color: rgb(11, 135, 97);
-}
-
 .main-container{
+    background-size:cover;
+    background-image: url("feedback.jpg");
+    width:100%;
+    height:100vh;
     display: flex;
     flex-direction: column;
-    text-align:right;
-    align-items: right;
+    text-align:center;
+    align-items: center;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
 }
 
 img{
     border-radius: 20px;
     margin:20px;
+    width:800px;
+    height:250px;
 }
 
 .form-label{
@@ -29,12 +33,19 @@ img{
     cursor:text;
 }
 
+.form-container{
+    height:100%;
+    width:50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 input{
     width: 100%;
-    margin: 5px 0;
+    margin: 10px 100;
+    padding:30px;
     box-sizing: border-box;
     border-radius: 5px;
-    width:500px;
+    width:800px;
     margin:20px;
     border:2px solid white;
     outline:none;
@@ -61,9 +72,9 @@ button {
     font-size: 30px;
     font-weight: bold;
     border-radius: 20px;
-    width:500px;
+    width:800px;
     letter-spacing: 2px;
-    height:70px;
+    height:150px;
     transition:ease-out 0.3s;
 }
 

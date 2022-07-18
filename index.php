@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="main-container">
-        
+    <div class="overlay">
     <div class="image-container">
         <img src="mrlogo.jpg" height="150px" width="500px">
     </div>
@@ -44,7 +44,7 @@
         </form>
 
         </div>
-    
+        </div>
     </div>
 </body>
 </html>
